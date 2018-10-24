@@ -1,0 +1,378 @@
+body{
+    margin: 0px;
+    padding: 0px;
+  
+}
+img{
+    border: 0px;
+}
+#container{
+  width:100%;
+  height: auto;
+  margin: 0px;
+  padding: 0px;
+  background-color: rgb(136, 140, 148);
+}
+.main{
+    width:1000px;
+    height: auto;
+    margin: 0px auto;
+    box-shadow: rgb(54, 135, 216) 5px;
+}
+
+.nav{
+    width:inherit ;
+    height: 40px;
+    background-color:eb722b;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.nav h4{
+    font-size: 1.3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 0px;
+    word-spacing: 0px;
+
+
+}
+
+.logo{
+    margin-top: 5px;
+    text-align: center;
+    padding-right: 5px;
+    
+    /* position: absolute;
+    left:475px; */
+
+}
+.header{
+    width: inherit;
+    height: 310px;
+    background-color: 675c58;
+    margin: 0px;
+    padding: 0px;
+    /* position: relative; */
+    
+}
+.header_content{
+    width: auto;
+    height: auto;
+    background-color: 675c58;
+    margin: 0px;
+    padding: 0px;
+    /* position: relative; */
+}
+.header h2{
+    font-size: 2.8em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(244, 240, 244);
+    font-weight: bold;
+    text-align: center;
+    font-variant-caps: all-petite-caps;
+    margin: 0px;
+    padding: 0px;
+    /* position: absolute; */
+    /* word-spacing: 20px; */
+}
+.header h3{
+    font-size: 2.5em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(221, 205, 205);
+    font-weight: normal;
+    text-align: center;
+    font-variant-caps: all-petite-caps;
+    margin: 0px;
+    /* margin-top: -59px; */
+    padding: 0px;
+    /* position: absolute;
+    left:298px; */
+}
+.header hr{
+    width: 350px;
+    height: auto;
+    margin-top: 20px;
+    color:  rgb(156, 141, 141);
+    text-align: center;
+}
+.header p{
+    font-size: 0.8em;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(221, 205, 205);  
+    text-align: center;
+    font-variant-caps: all-petite-caps;
+    margin-bottom: -10px;
+    padding: 5px; 
+    margin-top: 10px;
+     /*position: absolute;
+     left: 440px;
+     padding: 5px; */
+    
+   
+}
+.header h4{
+    font-size: 2.5em;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(238, 230, 230);
+    font-weight: lighter;
+    text-align: center;
+    font-variant-caps: all-petite-caps;
+    margin: 0px;
+    padding: 0px;
+   
+}
+.header button{
+   background-color: eb722b;
+   text-transform: uppercase;
+   color: aliceblue;
+   text-align: center;
+   margin-left: 445px;
+   margin-top: 30px;
+   padding: 0px;
+   width: 120px;
+   height: 40px;
+   border: 0px;
+   border-radius: 3px;
+}
+.regDate{
+    width: inherit;
+    height: 180px;
+    background-color:6b6c67;
+    position: relative;
+
+}
+
+.regDate p{
+    font-size: 1em;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+    font-weight: normal;
+    text-align: center;
+    font-variant-caps: all-petite-caps;
+    margin-top: 30px;
+    padding: 5px;
+    position: absolute;
+    letter-spacing: 1px;
+    left:425px;
+
+}
+.regDate h1{
+    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(223, 211, 211);
+    font-weight: lighter;
+    text-align: center;
+    font-variant-caps: all-petite-caps;
+    margin-top: 50px;
+    padding: 0px;
+    word-spacing: 55px;
+    position: absolute;
+    left:345px;
+
+
+}
+.regDate h6 {
+    font-size: 1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(184, 173, 173);
+    font-weight: lighter;
+    text-align: center;
+    font-variant-caps: all-petite-caps;
+    margin-top: 105px;
+    padding: 0px;
+    word-spacing: 55px;
+    position: absolute;
+    left:340px;
+
+
+}
+.featureGuest{
+    width: inherit;
+    height: 480px;
+    background-color: rgb(243, 245, 247);
+    position: relative;
+}
+.featureGuest img{
+    position: absolute;
+    left: 30px;
+    margin-top: 75px;
+    width: 585px;
+    height: 330px;
+    float: left;
+    
+}
+.featureGuest h1{
+    font-size: 2em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(98, 107, 116);
+    text-transform: uppercase;
+    word-break: break-all;
+    position: absolute;
+    left: 630px;
+    margin-top: 75px;
+  
+    
+}
+.featureGuest h4{
+    font-size: 1em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(121, 129, 138);
+    word-break: break-all;
+    position: absolute;
+    left: 635px;
+    margin-top: 155px;  
+}
+.featureGuest p{
+    font-size: 1em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(121, 129, 138);
+    word-break: break-all;
+    position: absolute;
+    left: 635px;
+    line-height: 1.3em;
+    margin-top: 195px;
+    padding: 5px;
+    overflow: hidden;  
+}
+.testimonials{
+    width: inherit;
+    height: 355px;
+    background-color: 768089;
+    position: relative;
+}
+.testimonials_content{
+    width: 50%;
+    height: 50%;
+     clear: both;
+     margin: 0 auto;
+}
+.testimonials_content h4{
+    font-size: 1em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(216, 221, 226);
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 5px;
+    margin: 0px;
+    padding-top: 30px;
+    /* left: 400px;
+    margin-top:50px;
+    position: absolute; */
+    
+   
+}
+.testimonials_content p{
+    font-size: 1em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(216, 221, 226);
+    width: 455px;
+    text-align: center;
+    padding-top: 15px;
+    word-spacing: 5px;
+    line-height: 1.5em;
+    /* position: absolute;
+   
+    left: 310px;
+      margin-top: 90px;   */
+}
+.exclusiveTraining{
+    width: inherit;
+    height: 150px;
+    background-color:  rgb(243, 245, 247);
+    
+}
+.exclusiveTraining_content{
+    width: 50%;
+    height: 50%;
+     clear: both;
+     margin: 0 auto;
+}
+.exclusiveTraining_content h1{
+    font-size: 1.5em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: rgb(61, 52, 52);
+    text-transform: uppercase;
+    text-align: center;
+    word-spacing: 5px;
+    margin: 0px;
+    padding-top: 30px;
+}
+.exclusiveTraining_content button{
+    background-color: eb722b;
+   text-transform: uppercase;
+   color: aliceblue;
+   text-align: center;
+   margin-left: 190px;
+   margin-top: 10px;
+   padding: 0px;
+   width: 120px;
+   height: 35px;
+   border: 0px;
+   border-radius: 3px;
+
+}
+.footer{
+    margin:0px;
+    padding: 10px;
+    width: inherit;
+    height: auto;
+    background-color:6b6b6b;
+    box-sizing: border-box;
+}
+
+.footer_text{
+    width:470PX;
+    height: auto;
+    margin: 0 auto;
+    padding: 0px;
+}
+.footer_text h6{
+    font-size: 0.8em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    line-height: 18px;
+    color: rgb(224, 219, 219);
+    text-align: center;
+    word-spacing: 2px;
+    margin: 0px;
+    padding-top: 30px;
+
+}
+.footer_text ul{
+    text-align: center;
+    padding: 0px;
+   
+}
+ul li {
+    display: inline;
+    font-size: 0.8em;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(243, 237, 237);
+    padding: 0px;
+    margin: 0px;   
+}
+a{
+	font-size: 0.9em;
+	text-decoration:none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    color: rgb(243, 237, 237);	
+}
+.seprator{
+    margin: 0px;
+    padding: 2px;
+   color: rgb(233, 223, 223); 
+}
